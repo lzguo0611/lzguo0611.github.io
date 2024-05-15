@@ -46,7 +46,7 @@ function ENTER() {
 	}
 	if(i == 7){
   		setTimeout(function() {
-    			alert(ANS);
+    			alert('答案是：' + ANS + '。重新整理再玩一次！');
 		},1000);
 	}
 }
