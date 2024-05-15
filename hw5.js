@@ -20,12 +20,14 @@ function DELETE() {
 }
 function ENTER() {
 	if(j == 6){
+		let n = 0;
 		for(let j = 1; j <= 5; j++) {
 			id = 'Word' + i + j;
 			c = document.getElementById(id).value;
 			if(c == ANS[j-1]){
 				document.getElementById(c).className = "Green";
 				document.getElementById(id).className = "Green";
+				n++;
 			}
 			else{
 				for(let k = 1; k <= 5; k++) {
@@ -44,7 +46,12 @@ function ENTER() {
 		i++;
 		j=1;
 	}
-	if(i == 7){
+	if(n == 6){
+  		setTimeout(function() {
+    			alert('太強了！花了' + (i-1) + '次猜對。重新整理再玩一次！');
+		},1000);
+	}
+	else if(i == 7){
   		setTimeout(function() {
     			alert('答案是：' + ANS + '。重新整理再玩一次！');
 		},1000);
