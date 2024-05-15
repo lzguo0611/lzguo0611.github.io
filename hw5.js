@@ -46,7 +46,7 @@ function ENTER() {
 		i++;
 		j=1;
 	}
-	if(n == 6){
+	if(n == 5){
   		setTimeout(function() {
     			alert('太強了！花了' + (i-1) + '次猜對。重新整理再玩一次！');
 		},1000);
