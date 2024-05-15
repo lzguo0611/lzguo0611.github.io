@@ -45,10 +45,10 @@ main{
 
 output{
   color: rgb(35, 26, 23);
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   text-align: center;
-  font-size: 120px;
+  font-size: 100px;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-weight: bold;
 }
@@ -56,11 +56,11 @@ button{
   background: gray;
   color: black
   border: 1px solid white;
-  width: 65px;
-  height: 65px;
+  width: 55px;
+  height: 55px;
   border-radius: 10px;
   text-align: center;
-  font-size: 52px;
+  font-size: 44px;
   align-items: center;
 }
 button:hover{
