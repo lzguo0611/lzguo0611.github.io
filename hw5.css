@@ -4,7 +4,7 @@ body{
 }
 
 header{
-  height: 200px;
+  height: 150px;
   padding: 10px;
   margin-left: 0px;
   background-color: rgb(232, 232, 232);
@@ -56,11 +56,11 @@ button{
   background: gray;
   color: black
   border: 1px solid white;
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
   border-radius: 10px;
   text-align: center;
-  font-size: 60px;
+  font-size: 52px;
   align-items: center;
 }
 button:hover{
