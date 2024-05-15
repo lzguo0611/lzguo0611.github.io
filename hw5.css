@@ -54,13 +54,13 @@ output{
 }
 button{
   background: gray;
-  color: black
+  color: rgb(0, 0, 0);
   border: 1px solid white;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 10px;
   text-align: center;
-  font-size: 44px;
+  font-size: 40px;
   align-items: center;
 }
 button:hover{
