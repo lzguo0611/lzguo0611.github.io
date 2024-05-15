@@ -14,7 +14,7 @@ header{
 }
 
 section{
-  height: 50px;
+  height: 100px;
   padding: 1%;
   background-color: none;
   text-align: center;
@@ -44,10 +44,10 @@ main{
 
 output{
   color: rgb(35, 26, 23);
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   text-align: center;
-  font-size: 40px;
+  font-size: 80px;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-weight: bold;
 }
@@ -55,9 +55,9 @@ button{
   background: gray;
   color: black
   border: 1px solid white;
-  width: 25px;
-  height: 25px;
-  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
   align-items: center;
 }
 button:hover{
