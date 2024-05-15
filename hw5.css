@@ -4,17 +4,18 @@ body{
 }
 
 header{
+  height: 200px;
   padding: 10px;
   margin-left: 0px;
   background-color: rgb(232, 232, 232);
   text-align: center;
-  font-size: 3em;
+  font-size: 6em;
   font-weight: bold;
   color: rgb(35, 26, 23);
 }
 
 section{
-  height: 100px;
+  height: 150px;
   padding: 1%;
   background-color: none;
   text-align: center;
@@ -44,10 +45,10 @@ main{
 
 output{
   color: rgb(35, 26, 23);
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   text-align: center;
-  font-size: 80px;
+  font-size: 120px;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
   font-weight: bold;
 }
@@ -55,9 +56,11 @@ button{
   background: gray;
   color: black
   border: 1px solid white;
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   border-radius: 10px;
+  text-align: center;
+  font-size: 60px;
   align-items: center;
 }
 button:hover{
