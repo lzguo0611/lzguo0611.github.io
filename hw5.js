@@ -1,5 +1,6 @@
 var i = 1;
 var j = 1;
+var j = 1;
 var txt;
 Input();
 let Dictionary = txt.split(",");
@@ -43,15 +44,15 @@ function ENTER() {
         			}
 			}
 		}
+		if(n == 5){
+	  		setTimeout(function() {
+	    			alert('太強了！花了' + i + '次猜對。重新整理再玩一次！');
+			},1000);
+		}
 		i++;
 		j=1;
 	}
-	if(n == 5){
-  		setTimeout(function() {
-    			alert('太強了！花了' + (i-1) + '次猜對。重新整理再玩一次！');
-		},1000);
-	}
-	else if(i == 7){
+	else if(i == 7 && n != 5){
   		setTimeout(function() {
     			alert('答案是：' + ANS + '。重新整理再玩一次！');
 		},1000);
