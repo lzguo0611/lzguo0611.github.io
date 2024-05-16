@@ -1,6 +1,6 @@
 var i = 1;
 var j = 1;
-var j = 1;
+var n;
 var txt;
 Input();
 let Dictionary = txt.split(",");
@@ -21,7 +21,7 @@ function DELETE() {
 }
 function ENTER() {
 	if(j == 6){
-		let n = 0;
+		n = 0;
 		for(let j = 1; j <= 5; j++) {
 			id = 'Word' + i + j;
 			c = document.getElementById(id).value;
@@ -46,13 +46,13 @@ function ENTER() {
 		}
 		if(n == 5){
 	  		setTimeout(function() {
-	    			alert('太強了！花了' + i + '次猜對。重新整理再玩一次！');
+	    			alert('太強了！花了' + (i-1) + '次猜對。重新整理再玩一次！');
 			},1000);
 		}
 		i++;
 		j=1;
 	}
-	else if(i == 7 && n != 5){
+	if(i == 7 && n != 5){
   		setTimeout(function() {
     			alert('答案是：' + ANS + '。重新整理再玩一次！');
 		},1000);
